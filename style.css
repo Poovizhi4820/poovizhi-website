@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('technology.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: rgba(45, 137, 239, 0.7); 
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+}
+.label {
+    color: #800000;  /* maroon */
+    font-weight: bold;
+}
+
+.value {
+    color: #000000;  /* black */
+    font-weight: bold;
+}
